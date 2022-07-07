@@ -1,0 +1,31 @@
+html, body {
+    height: 100% 
+}
+
+/*Caja que contiene las filas y columnas*/
+#boxlogin {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    width: 55rem;
+    height: 30rem;
+ }
+
+ /*estilos para el fondo*/
+.bgimage {
+    background-image: url("fondo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*estilos para centrar la caja del login*/
+.centrar {
+    background-image: url("");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
